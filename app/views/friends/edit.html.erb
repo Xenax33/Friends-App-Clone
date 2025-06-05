@@ -1,0 +1,17 @@
+<% content_for :title, "Editing friend" %>
+
+<h1>Editing friend</h1>
+
+<%= render "form", friend: @friend %>
+
+<br>
+
+
+<div class="row">
+  <div class="col-auto">
+    <%= button_to "Show this friend", @friend, class: "btn btn-outline-secondary" %>
+  </div>
+  <div class="col-auto">
+    <%= button_to "Back to friends", friends_path, class: "btn btn-outline-secondary" %>
+  </div>
+</div>
