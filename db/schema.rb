@@ -18,8 +18,10 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_05_085537) do
     t.string "city"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
     t.integer "model_id"
     t.index ["model_id"], name: "index_friends_on_model_id"
+    t.index ["user_id"], name: "index_friends_on_user_id"
   end
 
   create_table "models", force: :cascade do |t|
