@@ -1,0 +1,6 @@
+:concurrency: 5
+
+:schedule:
+  my_recurring_job:
+    class: "MyRecurringJob"
+    every: ["5s"]  # run every 5 seconds

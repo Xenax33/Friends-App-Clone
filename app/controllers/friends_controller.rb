@@ -2,7 +2,7 @@ class FriendsController < ApplicationController
   before_action :set_friend, only: %i[ show edit update destroy ]
   before_action :authenticate_model!, except: %i[ index show ]
   before_action :correct_model, only: %i[ edit update destroy ]
-  # Ensure that the model is authenticated for all actions except index and show
+
 
   # GET /friends or /friends.json
   def index
