@@ -17,7 +17,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 gem "devise", "~> 4.9", ">= 4.9.3"
-gem "sidekiq", "~> 7.1", ">= 7.1.2"
+gem "sidekiq", "~> 8.0"
 gem "sidekiq-scheduler"
 
 
